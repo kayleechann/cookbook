@@ -173,7 +173,7 @@ const ByDish = styled.div`
 `
 
 const ByDietaryRestriction = styled.div`
-background-color: #ffedd;
+background-color: #ffedd8;
 width: 100%;
 height: 500px;
 position: relative;
