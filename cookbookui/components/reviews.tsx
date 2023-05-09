@@ -5,7 +5,7 @@ const FlexContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 200px;
-  grid-gap:20px;
+  grid-gap:45px;
   margin-top: 20px;
 `
 
@@ -16,7 +16,7 @@ const Review = styled.div`
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 100%;
-  height: 200px;
+  height: 215px;
   background-color: #e6ccb2;
 
   h1:hover,
