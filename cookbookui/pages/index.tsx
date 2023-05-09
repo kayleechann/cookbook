@@ -12,6 +12,7 @@ import {
   IntroContainer
 } from '../components/sharedstyles'
 import Card from '../components/cards'
+import Review from '../components/reviews'
 
 export default function Home() {
   return (
@@ -180,9 +181,11 @@ export default function Home() {
       </SubmitRecipe>
 
       <FeaturedReviews>
-        <div className='reviewscontainer'>
-          <h1>Featured Reviews</h1>
-        </div>
+      <div className='reviewscontainer'>
+          <h1 className='top'>Featured Reviews</h1>
+          <p>Check out what our community members are saying about their favourite recipes:</p>
+          <Review />
+         </div>
       </FeaturedReviews>
 
 

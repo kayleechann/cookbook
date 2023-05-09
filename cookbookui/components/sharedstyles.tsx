@@ -173,7 +173,7 @@ const ByDish = styled.div`
 `
 
 const ByDietaryRestriction = styled.div`
-background-color: #ffedd8;
+background-color: #ffedd;
 width: 100%;
 height: 500px;
 position: relative;
@@ -266,13 +266,25 @@ const SubmitRecipe = styled.div`
 `
 
 const FeaturedReviews = styled.div`
-  background-color: #938274;
-  width: 100%;
-  height: 600px;
+background-color: #718355;
+height: 760px;
+color: #414833;
+position: relative;
 
-  h1{
-    font-size: 55px;
-  }
+.reviewscontainer{
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.top{
+  font-size:55px;
+  margin-bottom: 30px;
+}
 `
 
 const Description = styled.p`
