@@ -47,20 +47,20 @@ export default function Reviews() {
   return (
     <FlexContainer>
       <Review>
-        <h1>1 Spice Crusted Salmon</h1>
+        <h1>1 &nbsp;&nbsp;&nbsp;Spice Crusted Salmon</h1>
         <p>"Wow, this was amazing! I was worried the flavor would be too strong, but it was perfect. The cooking time was spot on too. This recipe will definitely be in heavy rotation at my house!" - Rebecca Q.
         </p>
       </Review>
       <Review>
-        <h1>2 Simple Sausage and Peppers</h1>
+        <h1>2 &nbsp;&nbsp;&nbsp;Simple Sausage and Peppers</h1>
         <p>"I was looking for an easy one-pan dinner and this was perfect! The spice level was just right for my family--not too hot, but not bland either. It was a big hit!" - Mike T.</p>
       </Review>
       <Review>
-        <h1>3 Creamy Mushroom Risotto</h1>
+        <h1>3 &nbsp;&nbsp;&nbsp;Creamy Mushroom Risotto</h1>
         <p>"This recipe was delicious and very simple to make. It turned out perfectly creamy and flavorful. I will definitely make this again in the future." - Alison F..</p>
       </Review>
       <Review>
-        <h1>4 Roasted Chicken with Vegetables</h1>
+        <h1>4 &nbsp;&nbsp;&nbsp;Roasted Chicken with Vegetables</h1>
         <p>"The veggies in this dish were so good! I loved the mix of flavors and textures. And the chicken was really moist and flavorful as well. This recipe is a keeper!" - Kaitlyn H.</p>
       </Review>
     </FlexContainer>

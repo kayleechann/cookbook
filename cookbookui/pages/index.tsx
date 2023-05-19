@@ -13,6 +13,14 @@ import {
 } from '../components/sharedstyles'
 import Card from '../components/cards'
 import Review from '../components/reviews'
+import Link from 'next/link'
+
+//submit form function 
+// call router.push(url=recipe name)
+//mkae a dynamic  
+
+const fetcher = url => fetch(url).then(r => r.json())
+
 
 export default function Home() {
   return (
@@ -25,7 +33,7 @@ export default function Home() {
 
       <Intro>
         <IntroContainer>
-          <h1 className='cookbookname'>Emily + Kaylee's Cookbook</h1>
+          <h1 className='cookbookname'>Kaylee's Cookbook</h1>
           <p>
           Explore our vast collection of recipes, submit your own creations, and share your love of cooking with others. Get started today.
           </p>
@@ -37,7 +45,7 @@ export default function Home() {
 
       <TopRecipes>
         <div className='CardGrid'>
-          <h1 className='top'>Top Rated Recipes</h1>
+         <Link href="/toprecipes"><h1 className='top'>Top Rated Recipes</h1></Link>
           <p>Discover our community's favorite dishes. From easy weeknight meals to exquisite dinner party options, there's something here for everyone. Try our:</p>
           <Card />
          </div>
@@ -97,12 +105,9 @@ export default function Home() {
       </SampleRecipe>
       <ByDish>
         <div className='DishGrid'>
-          <h1>Search By Dish</h1>
+          <Link href="/findmeals"><h1>Find Meals By Ingredients </h1></Link>
           <p>Find your favorite recipes by dish, from appetizers to desserts. Choose from:</p>
-          <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search" />
-            <button type="submit">Submit</button>
-          </form>
+         
           <div className='item appitem'>
             <h2>Appetizers</h2>
             <ul>
